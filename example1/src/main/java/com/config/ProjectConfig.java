@@ -18,6 +18,7 @@ public class ProjectConfig {
         veh.setName("Honda");
         return veh;
     }
+
     @Bean
     Vehicle vehicle3(){
         var veh = new Vehicle(); //var la tu khoa khai bao trong Java 10
